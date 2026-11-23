@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">充電停止トグル</string>
+    <string name="widget_desc">充電停止のON/OFF切り替え</string>
+</resources>

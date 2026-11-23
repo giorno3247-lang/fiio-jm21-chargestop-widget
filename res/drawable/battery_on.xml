@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="80dp"
+    android:viewportWidth="120"
+    android:viewportHeight="80">
+    <!-- 中身（緑） -->
+    <path
+        android:pathData="M20,26 L82,26 A6,6 0 0 1 88,32 L88,48 A6,6 0 0 1 82,54 L20,54 A6,6 0 0 1 14,48 L14,32 A6,6 0 0 1 20,26 Z"
+        android:fillColor="#22C55E" />
+    <!-- 外枠 -->
+    <path
+        android:pathData="M16,18 L86,18 A10,10 0 0 1 96,28 L96,52 A10,10 0 0 1 86,62 L16,62 A10,10 0 0 1 6,52 L6,28 A10,10 0 0 1 16,18 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#0F766E"
+        android:strokeWidth="5" />
+    <!-- 端子 -->
+    <path
+        android:pathData="M102,32 L109,32 A3,3 0 0 1 112,35 L112,45 A3,3 0 0 1 109,48 L102,48 Z"
+        android:fillColor="#0F766E" />
+</vector>

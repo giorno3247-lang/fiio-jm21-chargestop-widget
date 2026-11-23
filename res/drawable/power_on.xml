@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- グレー地の丸 -->
+    <path
+        android:pathData="M50,3 A47,47 0 1 1 49.9,3 Z"
+        android:fillColor="#E5E7EB" />
+    <!-- 電源マーク: 円弧 -->
+    <path
+        android:pathData="M64.8,35.1 A24,24 0 1 1 35.2,35.1"
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round" />
+    <!-- 電源マーク: 縦棒 -->
+    <path
+        android:pathData="M50,22 L50,44"
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round" />
+</vector>

@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
         root.addView(shizukuButton);
 
         TextView note = new TextView(this);
-        note.setText("\nFiiO JM21 の充電停止（charging_disable）を、Shizuku経由（shell権限）で切り替える道具です。\n"
+        note.setText("\nFiiO JM21 の充電停止（charging_disable）を、Shizuku経由（shell権限）で切り替えます。\n"
                 + "Shizukuアプリのインストールと起動が必要です。JM21を再起動した後は、Shizukuの再起動（adbコマンド）が必要です。\n"
                 + "ホーム画面にウィジェットを置くと、タップで切り替えできます。");
         note.setGravity(Gravity.CENTER);

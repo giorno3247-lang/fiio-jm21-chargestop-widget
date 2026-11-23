@@ -67,7 +67,7 @@ public class ToggleWidgetProvider extends AppWidgetProvider {
         boolean on = ChargeStop.isOn(context);
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
         views.setImageViewResource(R.id.widget_icon,
-                on ? R.drawable.battery_on : R.drawable.battery_off);
+                on ? R.drawable.power_on : R.drawable.power_off);
         Intent intent = new Intent(context, ToggleWidgetProvider.class).setAction(ACTION_TOGGLE);
         PendingIntent pi = PendingIntent.getBroadcast(context, 0, intent,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);

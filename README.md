@@ -20,6 +20,7 @@ JM21 の充電停止は `Settings.System` のキー `charging_disable` (0/1) で
 - FiiO JM21 (Android 13) で動作確認
 - Shizuku (v13.x) が起動していること
 - JM21 を再起動したあとは、PC から Shizuku の再起動が必要
+- **JM21 では USB デバッグを OFF にすると Shizuku が止まる** (実機確認済み)。USB デバッグは ON のままにすること
 
 ```sh
 adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh

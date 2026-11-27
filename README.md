@@ -1,3 +1,5 @@
+日本語 | [English](README.en.md)
+
 # 充電停止トグル (ChargeStopToggle)
 
 FiiO JM21 の「充電停止モード」をホーム画面の 1×1 ウィジェットでワンタップ切り替えするアプリ。
